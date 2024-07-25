@@ -124,12 +124,17 @@ td {
     padding: 10px;
 }
 .ajuste {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(0, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
-.td-img {width: 300px;}
-.img2 {
-    order: ;
+.div1 { grid-area: 1 / 1 / 4 / 2;}
+.div2 { grid-area: 1 / 2 / 2 / 3;}
+.div3 { grid-area: 2 / 2 / 4 / 3;}
+.td-img {
+  text-align: center;
 }
+
+
