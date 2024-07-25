@@ -2,6 +2,10 @@
     --color-fondo: #e9d1d1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-fondo);
     width: calc(100% - 15px);
@@ -119,6 +123,7 @@ h1 {
 table {
     border: 1px solid black;
     margin-bottom: 5px;
+    margin-left: 5px;
 }
 td {
     padding: 10px;
@@ -130,9 +135,15 @@ td {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-.div1 { grid-area: 1 / 1 / 4 / 2;}
-.div2 { grid-area: 1 / 2 / 2 / 3;}
-.div3 { grid-area: 2 / 2 / 4 / 3;}
+.div1 { grid-area: 1 / 1 / 4 / 2;
+  margin-right: 5px;
+}
+.div2 { grid-area: 1 / 2 / 2 / 3;
+  
+}
+.div3 { grid-area: 2 / 2 / 4 / 3;
+ 
+}
 .td-img {
   text-align: center;
 }
