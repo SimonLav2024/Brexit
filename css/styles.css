@@ -114,4 +114,15 @@ h1 {
   }
 
   /* fin */
-  
+
+table {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+td {
+    padding: 10px;
+    
+}
+.td-img {
+    width: 300px;
+}
