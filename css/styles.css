@@ -48,6 +48,8 @@ h1 {
   }
 }
 
+/* fin */
+
 /* A PARTIR DE AQUI VIENE EL CODIGO DE LA CAJA CON PESTAÑAS */
 
 .tab-content {
@@ -189,6 +191,10 @@ td {
 
 /* Interlineado y diseño del texto de las cajas */
 h2 {margin-bottom: 1rem;}
+#principal {
+  text-align: justify;
+  line-height: 24px;
+}
 /* fin */
 
 /* Formulario de contacto */
