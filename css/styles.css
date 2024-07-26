@@ -120,6 +120,8 @@ h1 {
 
   /* fin */
 
+/* Todo lo que son los retoques de los tamaños y el ajuste de los elementos de cada una de las pestañas de la caja */
+
 table {
     border: 1px solid black;
     margin-bottom: 5px;
@@ -161,4 +163,10 @@ td {
   
 }
 .mapa-brexit {max-width: 100%;}
+
+/* fin de las alineaciones */
+
+/* Interlineado y diseño del texto de las cajas */
+h2 {margin-bottom: 1rem;}
+/* fin */
 
