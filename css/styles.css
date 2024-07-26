@@ -137,15 +137,25 @@ td {
 }
 .div1 { grid-area: 1 / 1 / 4 / 2;
   margin-right: 5px;
+  width: 650px;
 }
 .div2 { grid-area: 1 / 2 / 2 / 3;
   
 }
 .div3 { grid-area: 2 / 2 / 4 / 3;
- 
+  margin: 1rem auto;
 }
 .td-img {
   text-align: center;
 }
-
+.tabla2{
+  margin: 1rem auto;
+  max-width: 100%;
+  
+}
+.img2 {
+  margin: 1rem auto;
+  
+}
+.mapa-brexit {max-width: 100%;}
 
