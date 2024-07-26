@@ -36,6 +36,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin: none;
+  font-weight: bold;
 }
 .navegacion :hover {
   background-color: rgba(255, 255, 255, 0.656);
@@ -194,7 +195,7 @@ h2 {margin-bottom: 1rem;}
 
 .formulario {
   background-color: rgba(10, 10, 10, 0.434);
-  width: min(80rem, 100%);
+  
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem;
