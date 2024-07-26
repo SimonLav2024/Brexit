@@ -170,3 +170,27 @@ td {
 h2 {margin-bottom: 1rem;}
 /* fin */
 
+/* Formulario de contacto */
+
+.formulario {
+  background-color: rgba(10, 10, 10, 0.434);
+  width: min(80rem, 100%);
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+fieldset {border:none;}
+.simetria {
+  display: flex;
+  flex-direction: column;
+}
+label {font-size: 16px;color: wheat;font-weight: bold;}
+.cajas {margin-bottom: 1rem;
+display: flex;
+flex-direction: column;
+}
+textarea {height: 150px;}
+input {height: 22px;}
+.enviar {width: 45%;height: 40px;
+  margin: 0 auto;
+}
