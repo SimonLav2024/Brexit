@@ -139,7 +139,7 @@ td {
 }
 .div1 { grid-area: 1 / 1 / 4 / 2;
   margin-right: 5px;
-  width: 650px;
+  width: 100%;
 }
 .div2 { grid-area: 1 / 2 / 2 / 3;
   
@@ -194,3 +194,5 @@ input {height: 22px;}
 .enviar {width: 45%;height: 40px;
   margin: 0 auto;
 }
+
+/* fin */
